@@ -163,7 +163,7 @@ export const SchematicReferenceModal: React.FC<{
           </button>
         </div>
         <img
-          src="/esquematico-wts.jpg"
+          src={`${import.meta.env.BASE_URL}esquematico-wts.jpg`}
           alt="Esquemático WTS — Arnés pectoral y receptor del rescatista"
           className="w-full rounded-2xl border border-slate-700 bg-white"
         />
