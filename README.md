@@ -63,6 +63,13 @@ npm run build
 npm run preview
 ```
 
+### 5. Despliegue automático 24/7 en GitHub Pages
+El repositorio incluye el flujo `.github/workflows/deploy.yml` para compilar y publicar automáticamente el juego en **GitHub Pages** cada vez que se actualiza la rama `main`:
+1. En GitHub, ve a **Settings → Pages → Build and deployment**.
+2. En **Source**, selecciona **GitHub Actions**.
+3. Al fusionar cambios en `main` (o ejecutar el workflow desde la pestaña **Actions**), el sitio quedará publicado permanentemente en:
+   `https://batrax24.github.io/Juego-interactivo-proyecto-WTS/`
+
 ---
 
 ## Controles Rápidos
